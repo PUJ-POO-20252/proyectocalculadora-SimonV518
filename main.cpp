@@ -3,8 +3,13 @@
 #include "matematicas.h"
 
 int main() {
-    int X = 10;
-    int Y = 4;
+    int X, Y;
+    std::cout << "Ingrese el primer número: ";
+    std::cin >> X;
+
+    std::cout << "Ingrese el segundo número: ";
+    std::cin >> Y;
+
     int resultado_suma = sumar(X, Y);
     int resultado_subtra = subtract (X, Y);
     int resultado_multiplicar = multiplicar (X, Y);
